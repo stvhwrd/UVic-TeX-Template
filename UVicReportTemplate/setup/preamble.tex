@@ -7,17 +7,17 @@
 % your operating system and its default input
 % encoding. Typically, you should use
 %   Linux  : utf8 (most modern Linux distributions)
-%            latin1 
+%            latin1
 %   Windows: ansinew
 %            latin1 (works in most cases)
 %   Mac    : applemac
 % Notice that you can manually change the input
 % encoding of your files by selecting "save as"
-% an select the desired input encoding. 
-\usepackage[utf8]{inputenc}
+% an select the desired input encoding.
+\usepackage[applemac]{inputenc}
 % Make latex understand and use the typographic
 % rules of the language used in the document.
-\usepackage[danish,english]{babel}
+\usepackage[english]{babel}
 % Use the palatino font
 \usepackage[sc]{mathpazo}
 \linespread{1.05}         % Palatino needs more leading (space between lines)
@@ -31,7 +31,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % load a colour package
 \usepackage{xcolor}
-\definecolor{aaublue}{RGB}{33,26,82}% dark blue
+\definecolor{uvicblue}{RGB}{0,94,184}% dark blue
 % The standard graphics inclusion package
 \usepackage{graphicx}
 % Set up how figure and table captions are displayed
@@ -51,7 +51,7 @@
 % http://en.wikibooks.org/wiki/LaTeX/Mathematics
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Defines new environments such as equation,
-% align and split 
+% align and split
 \usepackage{amsmath}
 % Adds new math symbols
 \usepackage{amssymb}
@@ -133,7 +133,7 @@
 % http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Enable hyperlinks and insert info into the pdf
-% file. Hypperref should be loaded as one of the 
+% file. Hypperref should be loaded as one of the
 % last packages
 \usepackage{hyperref}
 \hypersetup{%
